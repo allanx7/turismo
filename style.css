@@ -256,6 +256,11 @@ h2 {
   justify-self: start;
   display: inline-flex;
   align-items: center;
+  font-family: var(--font-title);
+  font-size: 1.35rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  color: #102030;
 }
 
 .logo img {

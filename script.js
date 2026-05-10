@@ -1,7 +1,7 @@
 ﻿'use strict';
 
 const CONFIG = {
-  WHATSAPP: '5512999999999',
+  WHATSAPP: '5512992090876',
   DEFAULT_MESSAGE: 'Ola! Quero saber mais sobre os passeios em Ilhabela.'
 };
 
