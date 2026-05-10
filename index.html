@@ -1,0 +1,506 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sallet Tour | Passeio em Ilhabela, Lancha, 4x4 e Praia de Castelhanos</title>
+  <meta name="description" content="Sallet Tour: passeio em Ilhabela com roteiro para Praia de Castelhanos, passeio de lancha Ilhabela, passeio de jipe em Ilhabela, flexboat, escuna e turismo no litoral norte SP. Reserve no WhatsApp.">
+  <meta name="keywords" content="passeio em Ilhabela, passeio de lancha Ilhabela, passeio de jipe em Ilhabela, Praia de Castelhanos, passeio de barco, turismo em Ilhabela, passeio 4x4 Ilhabela, passeio para Castelhanos, lancha em Ilhabela, turismo litoral norte SP">
+  <meta name="author" content="Sallet Tour">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Sallet Tour | Turismo em Ilhabela">
+  <meta property="og:description" content="Descubra os paraisos escondidos de Ilhabela com passeios de lancha, 4x4 e barco. Atendimento rapido pelo WhatsApp.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+
+  <!-- Fontes elegantes para visual premium -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Marcellus&display=swap" rel="stylesheet">
+
+  <!-- Preload da imagem principal para melhorar o carregamento do hero -->
+  <link rel="preload" href="img/hero-ilhabela.svg" as="image" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Link de acessibilidade para pular direto ao conteudo -->
+  <a class="skip-link" href="#conteudo">Pular para o conteudo principal</a>
+
+  <!-- =========================================================
+       BOTAO FLUTUANTE WHATSAPP
+       Todos os links de WhatsApp usam data-message e recebem o href via JS.
+       ========================================================= -->
+  <a class="whatsapp-float js-whatsapp" data-message="Ola! Quero reservar um passeio em Ilhabela com a Sallet Tour." href="#" target="_blank" rel="noopener noreferrer" aria-label="Conversar no WhatsApp com a Sallet Tour">
+    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+      <path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.08-.3-.15-1.26-.46-2.39-1.48-.88-.78-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.61.13-.13.3-.34.45-.52.15-.17.2-.3.3-.49.1-.2.05-.38-.03-.52-.07-.15-.66-1.61-.91-2.21-.24-.58-.49-.5-.67-.51-.17-.01-.37-.01-.57-.01-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.87 1.22 3.07.15.2 2.09 3.2 5.07 4.49.71.3 1.26.49 1.7.62.71.23 1.36.2 1.87.12.57-.08 1.76-.72 2.01-1.41.25-.7.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35zM12.05 21.78h0a9.9 9.9 0 0 1-5.03-1.38l-.36-.22-3.74.99.99-3.65-.24-.38a9.85 9.85 0 0 1-1.51-5.25c0-5.46 4.44-9.89 9.89-9.89 2.64 0 5.12 1.03 6.98 2.9a9.83 9.83 0 0 1 2.9 6.99c0 5.45-4.44 9.89-9.88 9.89z"/>
+    </svg>
+    <span class="pulse" aria-hidden="true"></span>
+  </a>
+
+ 
+  <header class="site-header" id="topo">
+    <div class="container header-grid">
+      <a class="logo" href="#home" aria-label="Sallet Tour - Inicio">
+       <!-- <img src="img/logo-sallet-tour.svg" alt="Logo da Sallet Tour" width="168" height="52" loading="eager" fetchpriority="high"> -->
+      </a>
+
+      <nav class="main-nav" id="main-nav" aria-label="Navegacao principal">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#passeios">Passeios</a></li>
+          <li><a href="#galeria">Galeria</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a class="btn btn-gold js-whatsapp" data-message="Ola! Quero reservar agora meu passeio em Ilhabela." href="#" target="_blank" rel="noopener noreferrer">Reservar Agora</a>
+        <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="main-nav">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <!-- =========================================================
+         HERO
+         ========================================================= -->
+    <section class="hero" id="home" aria-label="Destaque principal" data-reveal>
+      <img class="hero-bg js-image-fade" src="img/hero-ilhabela.svg" alt="Vista de praia em Ilhabela com mar azul e montanhas" width="1600" height="900" loading="eager" fetchpriority="high">
+      <div class="hero-overlay" aria-hidden="true"></div>
+
+      <div class="container hero-content">
+        <p class="hero-kicker">Turismo premium no litoral norte SP</p>
+        <h1>Passeios em Ilhabela para viver o melhor da Praia de Castelhanos, lancha e 4x4</h1>
+        <p class="hero-text">Descubra os paraisos escondidos de Ilhabela com roteiros seguros, atendimento rapido e experiencias exclusivas no mar e na natureza.</p>
+
+        <div class="hero-buttons">
+          <a class="btn btn-gold btn-lg js-whatsapp" data-message="Ola! Quero reservar meu passeio em Ilhabela no WhatsApp." href="#" target="_blank" rel="noopener noreferrer">Reservar no WhatsApp</a>
+          <a class="btn btn-light btn-lg" href="#passeios">Ver Passeios</a>
+        </div>
+
+        <ul class="hero-highlights" aria-label="Diferenciais principais">
+          <li>Atendimento rapido</li>
+          <li>Guias experientes</li>
+          <li>Passeios exclusivos</li>
+        </ul>
+      </div>
+    </section>
+
+    
+    <section class="section" id="sobre" data-reveal>
+      <div class="container about-grid">
+        <article class="about-text">
+          <p class="section-kicker">Sobre Ilhabela</p>
+          <h2>Natureza, aventura e conforto em cada passeio em Ilhabela</h2>
+          <p>Ilhabela e o destino ideal para quem busca praias paradisicas, cachoeiras cercadas de Mata Atlantica e experiencias completas de turismo em Ilhabela. Da Praia de Castelhanos aos roteiros de barco, cada trajeto revela cenarios inesqueciveis.</p>
+          <p>Com a Sallet Tour, voce encontra passeio de lancha Ilhabela, passeio de jipe em Ilhabela, observacao de baleias e aventura 4x4 com suporte local. Tudo pensado para sua viagem ser segura, leve e memoravel.</p>
+
+          <div class="about-features">
+            <article class="mini-card">
+              <span class="mini-icon" aria-hidden="true">🌴</span>
+              <h3>Praias iconicas</h3>
+              <p>Castelhanos, Bonete e enseadas de agua cristalina.</p>
+            </article>
+            <article class="mini-card">
+              <span class="mini-icon" aria-hidden="true">💧</span>
+              <h3>Cachoeiras e trilhas</h3>
+              <p>Roteiros para quem ama natureza e aventura suave.</p>
+            </article>
+            <article class="mini-card">
+              <span class="mini-icon" aria-hidden="true">⛵</span>
+              <h3>Passeios de barco</h3>
+              <p>Escuna, flexboat e lancha em Ilhabela no seu ritmo.</p>
+            </article>
+            <article class="mini-card">
+              <span class="mini-icon" aria-hidden="true">🐋</span>
+              <h3>Temporada de baleias</h3>
+              <p>Experiencia unica de observacao no litoral norte.</p>
+            </article>
+          </div>
+        </article>
+
+        <figure class="about-image-wrap">
+          <img class="about-image js-image-fade" src="img/sobre-ilhabela.svg" alt="Paisagem de Ilhabela com mar, montanha e barco" width="1600" height="900" loading="lazy">
+        </figure>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         PASSEIOS
+         Para adicionar um novo passeio, basta duplicar um article.passeio-card
+         ========================================================= -->
+    <section class="section section-soft" id="passeios" data-reveal>
+      <div class="container">
+        <p class="section-kicker">Nossos roteiros</p>
+        <h2>Passeios mais procurados em Ilhabela</h2>
+        <p class="section-intro">Escolha seu roteiro e reserve em poucos cliques. Cada passeio foi pensado para unir aventura, natureza e conforto.</p>
+
+        <div class="passeio-grid">
+          <article class="passeio-card">
+            <img class="js-image-fade" src="img/passeio-castelhanos-4x4.svg" alt="Passeio 4x4 para a Praia de Castelhanos em Ilhabela" width="1600" height="900" loading="lazy">
+            <div class="passeio-body">
+              <h3>Passeio Praia de Castelhanos 4x4</h3>
+              <p>Rota classica de passeio para Castelhanos com paradas em mirantes e praia.</p>
+              <div class="passeio-meta"><span>Duracao: 8h</span><span>Destaque: aventura 4x4</span></div>
+              <a class="btn btn-outline js-whatsapp" data-message="Ola! Quero reservar o Passeio Praia de Castelhanos 4x4." href="#" target="_blank" rel="noopener noreferrer">Reservar via WhatsApp</a>
+            </div>
+          </article>
+
+          <article class="passeio-card">
+            <img class="js-image-fade" src="img/passeio-lancha.svg" alt="Passeio de lancha em Ilhabela com mar azul" width="160" height="90" loading="lazy">
+            <div class="passeio-body">
+              <h3>Passeio de Lancha</h3>
+              <p>Passeio de lancha Ilhabela com paradas em praias e snorkel em aguas calmas.</p>
+              <div class="passeio-meta"><span>Duracao: 6h</span><span>Destaque: conforto premium</span></div>
+              <a class="btn btn-outline js-whatsapp" data-message="Ola! Quero detalhes do Passeio de Lancha em Ilhabela." href="#" target="_blank" rel="noopener noreferrer">Reservar via WhatsApp</a>
+            </div>
+          </article>
+
+          <article class="passeio-card">
+            <img class="js-image-fade" src="img/passeio-flexboat.svg" alt="Passeio flexboat em praias de Ilhabela" width="160" height="90" loading="lazy">
+            <div class="passeio-body">
+              <h3>Passeio Flexboat</h3>
+              <p>Opcao agil para explorar pequenas enseadas e praias de dificil acesso.</p>
+              <div class="passeio-meta"><span>Duracao: 4h</span><span>Destaque: roteiro dinamico</span></div>
+              <a class="btn btn-outline js-whatsapp" data-message="Ola! Quero reservar o Passeio Flexboat em Ilhabela." href="#" target="_blank" rel="noopener noreferrer">Reservar via WhatsApp</a>
+            </div>
+          </article>
+
+          <article class="passeio-card">
+            <img class="js-image-fade" src="img/passeio-terra-mar.svg" alt="Roteiro terra e mar em Ilhabela com 4x4 e barco" width="160" height="90" loading="lazy">
+            <div class="passeio-body">
+              <h3>Roteiro Terra e Mar</h3>
+              <p>Combinacao completa de passeio 4x4 Ilhabela e trecho de barco no mesmo dia.</p>
+              <div class="passeio-meta"><span>Duracao: 9h</span><span>Destaque: experiencia completa</span></div>
+              <a class="btn btn-outline js-whatsapp" data-message="Ola! Quero saber mais sobre o Roteiro Terra e Mar." href="#" target="_blank" rel="noopener noreferrer">Reservar via WhatsApp</a>
+            </div>
+          </article>
+
+          <article class="passeio-card">
+            <img class="js-image-fade" src="img/passeio-bonete.svg" alt="Passeio para Bonete em Ilhabela" width="160" height="90" loading="lazy">
+            <div class="passeio-body">
+              <h3>Passeio para Bonete</h3>
+              <p>Um dos roteiros mais desejados para quem quer praias autenticas e natureza.</p>
+              <div class="passeio-meta"><span>Duracao: 8h</span><span>Destaque: praia rustica</span></div>
+              <a class="btn btn-outline js-whatsapp" data-message="Ola! Quero reservar o Passeio para Bonete." href="#" target="_blank" rel="noopener noreferrer">Reservar via WhatsApp</a>
+            </div>
+          </article>
+
+          <article class="passeio-card">
+            <img class="js-image-fade" src="img/passeio-escuna.svg" alt="Passeio de escuna em Ilhabela" width="160" height="90" loading="lazy">
+            <div class="passeio-body">
+              <h3>Passeio de Escuna</h3>
+              <p>Passeio de barco tradicional para familias e grupos que buscam tranquilidade.</p>
+              <div class="passeio-meta"><span>Duracao: 5h</span><span>Destaque: ideal para grupos</span></div>
+              <a class="btn btn-outline js-whatsapp" data-message="Ola! Quero reservar o Passeio de Escuna em Ilhabela." href="#" target="_blank" rel="noopener noreferrer">Reservar via WhatsApp</a>
+            </div>
+          </article>
+
+          <article class="passeio-card">
+            <img class="js-image-fade" src="img/passeio-cachoeiras.svg" alt="Tour de cachoeiras em Ilhabela" width="160" height="90" loading="lazy">
+            <div class="passeio-body">
+              <h3>Tour Cachoeiras</h3>
+              <p>Roteiro terrestre com foco em cachoeiras, mata nativa e banhos refrescantes.</p>
+              <div class="passeio-meta"><span>Duracao: 4h</span><span>Destaque: contato com a natureza</span></div>
+              <a class="btn btn-outline js-whatsapp" data-message="Ola! Quero reservar o Tour Cachoeiras em Ilhabela." href="#" target="_blank" rel="noopener noreferrer">Reservar via WhatsApp</a>
+            </div>
+          </article>
+
+          <article class="passeio-card">
+            <img class="js-image-fade" src="img/passeio-privativo.svg" alt="Passeio privativo de turismo em Ilhabela" width="160" height="90" loading="lazy">
+            <div class="passeio-body">
+              <h3>Passeio Privativo</h3>
+              <p>Roteiro exclusivo para casais, familias ou pequenos grupos com total flexibilidade.</p>
+              <div class="passeio-meta"><span>Duracao: sob consulta</span><span>Destaque: experiencia personalizada</span></div>
+              <a class="btn btn-outline js-whatsapp" data-message="Ola! Quero montar um Passeio Privativo em Ilhabela." href="#" target="_blank" rel="noopener noreferrer">Reservar via WhatsApp</a>
+            </div>
+          </article>
+
+          <article class="passeio-card">
+            <img class="js-image-fade" src="img/passeio-baleias.svg" alt="Observacao de baleias no litoral norte de Sao Paulo" width="160" height="90" loading="lazy">
+            <div class="passeio-body">
+              <h3>Observacao de Baleias</h3>
+              <p>Saida sazonal para registro de baleias e paisagens unicas do mar aberto.</p>
+              <div class="passeio-meta"><span>Duracao: 4h</span><span>Destaque: temporada especial</span></div>
+              <a class="btn btn-outline js-whatsapp" data-message="Ola! Quero saber sobre a Observacao de Baleias em Ilhabela." href="#" target="_blank" rel="noopener noreferrer">Reservar via WhatsApp</a>
+            </div>
+          </article>
+
+          <article class="passeio-card">
+            <img class="js-image-fade" src="img/passeio-volta-ilha.svg" alt="Passeio Volta a Ilha em Ilhabela" width="160" height="90" loading="lazy">
+            <div class="passeio-body">
+              <h3>Volta a Ilha</h3>
+              <p>Roteiro panoramico para conhecer diferentes praias e paisagens do arquipelago.</p>
+              <div class="passeio-meta"><span>Duracao: 7h</span><span>Destaque: vistas inesqueciveis</span></div>
+              <a class="btn btn-outline js-whatsapp" data-message="Ola! Quero reservar o passeio Volta a Ilha." href="#" target="_blank" rel="noopener noreferrer">Reservar via WhatsApp</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         GALERIA COM MODAL
+         Clique em qualquer foto para abrir ampliada.
+         ========================================================= -->
+    <section class="section" id="galeria" data-reveal>
+      <div class="container">
+        <p class="section-kicker">Galeria</p>
+        <h2>Praias, barcos, lanchas, cachoeiras, baleias e paisagens</h2>
+        <p class="section-intro">Selecao visual para mostrar a experiencia do turismo em Ilhabela.</p>
+
+        <div class="gallery-grid">
+          <button class="gallery-item" data-modal-image="img/galeria-praias.svg" data-modal-alt="Galeria de praias em Ilhabela" data-modal-caption="Praias">
+            <img class="js-image-fade" src="img/galeria-praias.svg" alt="Praias de Ilhabela" width="160" height="90" loading="lazy">
+            <span>Praias</span>
+          </button>
+          <button class="gallery-item" data-modal-image="img/galeria-barcos.svg" data-modal-alt="Galeria de barcos em Ilhabela" data-modal-caption="Barcos">
+            <img class="js-image-fade" src="img/galeria-barcos.svg" alt="Barcos de passeio em Ilhabela" width="160" height="90" loading="lazy">
+            <span>Barcos</span>
+          </button>
+          <button class="gallery-item" data-modal-image="img/galeria-lanchas.svg" data-modal-alt="Galeria de lanchas em Ilhabela" data-modal-caption="Lanchas">
+            <img class="js-image-fade" src="img/galeria-lanchas.svg" alt="Lanchas em Ilhabela" width="160" height="90" loading="lazy">
+            <span>Lanchas</span>
+          </button>
+          <button class="gallery-item" data-modal-image="img/galeria-cachoeiras.svg" data-modal-alt="Galeria de cachoeiras em Ilhabela" data-modal-caption="Cachoeiras">
+            <img class="js-image-fade" src="img/galeria-cachoeiras.svg" alt="Cachoeiras em Ilhabela" width="160" height="90" loading="lazy">
+            <span>Cachoeiras</span>
+          </button>
+          <button class="gallery-item" data-modal-image="img/galeria-baleias.svg" data-modal-alt="Galeria de baleias em Ilhabela" data-modal-caption="Baleias">
+            <img class="js-image-fade" src="img/galeria-baleias.svg" alt="Observacao de baleias em Ilhabela" width="160" height="90" loading="lazy">
+            <span>Baleias</span>
+          </button>
+          <button class="gallery-item" data-modal-image="img/galeria-paisagens.svg" data-modal-alt="Galeria de paisagens em Ilhabela" data-modal-caption="Paisagens">
+            <img class="js-image-fade" src="img/galeria-paisagens.svg" alt="Paisagens de Ilhabela" width="160" height="90" loading="lazy">
+            <span>Paisagens</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modal simples da galeria -->
+    <div class="modal" id="gallery-modal" role="dialog" aria-modal="true" aria-label="Imagem ampliada" hidden>
+      <button class="modal-close" id="modal-close" aria-label="Fechar imagem">Fechar</button>
+      <figure class="modal-content">
+        <img id="modal-image" src="" alt="">
+        <figcaption id="modal-caption"></figcaption>
+      </figure>
+    </div>
+
+    <!-- =========================================================
+         DIFERENCIAIS
+         ========================================================= -->
+    <section class="section section-dark" id="diferenciais" data-reveal>
+      <div class="container">
+        <p class="section-kicker">Diferenciais Sallet Tour</p>
+        <h2>Por que escolher nossa equipe para seu passeio em Ilhabela</h2>
+
+        <div class="diferenciais-grid">
+          <article class="feature-card">
+            <span class="feature-icon" aria-hidden="true">⚡</span>
+            <h3>Atendimento rapido</h3>
+            <p>Resposta agil no WhatsApp para voce reservar sem complicacao.</p>
+          </article>
+          <article class="feature-card">
+            <span class="feature-icon" aria-hidden="true">🛟</span>
+            <h3>Passeios seguros</h3>
+            <p>Operacao responsavel com foco em conforto e bem-estar.</p>
+          </article>
+          <article class="feature-card">
+            <span class="feature-icon" aria-hidden="true">🧭</span>
+            <h3>Guias experientes</h3>
+            <p>Profissionais locais que conhecem cada roteiro da ilha.</p>
+          </article>
+          <article class="feature-card">
+            <span class="feature-icon" aria-hidden="true">🌅</span>
+            <h3>Paisagens paradisiacas</h3>
+            <p>Paradas estrategicas para fotos e momentos inesqueciveis.</p>
+          </article>
+          <article class="feature-card">
+            <span class="feature-icon" aria-hidden="true">💰</span>
+            <h3>Melhor custo-beneficio</h3>
+            <p>Roteiros de alto valor percebido para diferentes perfis de viagem.</p>
+          </article>
+          <article class="feature-card">
+            <span class="feature-icon" aria-hidden="true">✨</span>
+            <h3>Experiencia inesquecivel</h3>
+            <p>Aventura, natureza e mar azul em um unico destino.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         DEPOIMENTOS
+         ========================================================= -->
+    <section class="section" id="depoimentos" data-reveal>
+      <div class="container">
+        <p class="section-kicker">Depoimentos</p>
+        <h2>O que os visitantes dizem sobre a Sallet Tour</h2>
+
+        <div class="depoimentos-grid">
+          <article class="depoimento-card">
+            <p class="stars" aria-label="5 estrelas">★★★★★</p>
+            <blockquote>"Melhor passeio que fizemos em Ilhabela. Castelhanos foi incrivel e o atendimento no WhatsApp foi super rapido."</blockquote>
+            <p class="author">Marina e Rafael - Campinas/SP</p>
+          </article>
+          <article class="depoimento-card">
+            <p class="stars" aria-label="5 estrelas">★★★★★</p>
+            <blockquote>"Equipe muito atenciosa. Fizemos passeio de lancha em Ilhabela e foi tudo organizado do inicio ao fim."</blockquote>
+            <p class="author">Camila N. - Sao Paulo/SP</p>
+          </article>
+          <article class="depoimento-card">
+            <p class="stars" aria-label="5 estrelas">★★★★★</p>
+            <blockquote>"Experiencia incrivel. Roteiro terra e mar com 4x4 e barco valeu cada minuto."</blockquote>
+            <p class="author">Joao e familia - Belo Horizonte/MG</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         FORMULARIO DE AGENDAMENTO (SEM BACKEND)
+         Envia os dados direto para o WhatsApp via JavaScript.
+         ========================================================= -->
+    <section class="section section-soft" id="contato" data-reveal>
+      <div class="container contato-grid">
+        <article>
+          <p class="section-kicker">Agendamento facil</p>
+          <h2>Reserve seu passeio em Ilhabela agora mesmo</h2>
+          <p>Preencha os campos e clique em enviar. O WhatsApp abre com uma mensagem pronta para agilizar seu atendimento.</p>
+          <ul class="contact-list">
+            <li>Resposta rapida no horario comercial</li>
+            <li>Suporte para passeios privativos e grupos</li>
+            <li>Atendimento humanizado do inicio ao fim</li>
+          </ul>
+        </article>
+
+        <form class="booking-form" id="booking-form" novalidate>
+          <div class="field">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+          </div>
+
+          <div class="field">
+            <label for="whatsapp">WhatsApp</label>
+            <input type="tel" id="whatsapp" name="whatsapp" placeholder="(12) 99999-9999" required>
+          </div>
+
+          <div class="field">
+            <label for="pessoas">Quantidade de pessoas</label>
+            <input type="number" id="pessoas" name="pessoas" min="1" value="2" required>
+          </div>
+
+          <div class="field">
+            <label for="passeio">Passeio desejado</label>
+            <select id="passeio" name="passeio" required>
+              <option value="">Selecione um passeio</option>
+              <option>Passeio Praia de Castelhanos 4x4</option>
+              <option>Passeio de Lancha</option>
+              <option>Passeio Flexboat</option>
+              <option>Roteiro Terra e Mar</option>
+              <option>Passeio para Bonete</option>
+              <option>Passeio de Escuna</option>
+              <option>Tour Cachoeiras</option>
+              <option>Passeio Privativo</option>
+              <option>Observacao de Baleias</option>
+              <option>Volta a Ilha</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="data">Data</label>
+            <input type="date" id="data" name="data" required>
+          </div>
+
+          <div class="field field-full">
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" rows="4" placeholder="Ex: Queremos passeio de lancha com saida de manha."></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-gold btn-full">Enviar e abrir WhatsApp</button>
+          <p class="form-feedback" id="form-feedback" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         CTA FINAL
+         ========================================================= -->
+    <section class="section cta-final" data-reveal>
+      <div class="container cta-box">
+        <h2>Garanta agora seu passeio em Ilhabela</h2>
+        <p>Viva uma experiencia inesquecivel com praias, barcos e paisagens que so Ilhabela oferece.</p>
+        <a class="btn btn-gold btn-xl js-whatsapp" data-message="Ola! Quero garantir agora meu passeio em Ilhabela." href="#" target="_blank" rel="noopener noreferrer">Quero Reservar no WhatsApp</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================
+       FOOTER
+       ========================================================= -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <section>
+        <h3>Sallet Tour</h3>
+        <p>Especialistas em passeio em Ilhabela, lancha em Ilhabela e roteiro para Praia de Castelhanos.</p>
+      </section>
+
+      <section>
+        <h3>Contato</h3>
+        <ul>
+          <li><a href="tel:+5512999999999">Telefone: (12) 99999-9999</a></li>
+          <li><a class="js-whatsapp" data-message="Ola! Vim pelo site e quero informacoes sobre passeios." href="#" target="_blank" rel="noopener noreferrer">WhatsApp: atendimento rapido</a></li>
+          <li><a href="mailto:contato@sallettour.com.br">E-mail: contato@sallettour.com.br</a></li>
+        </ul>
+      </section>
+
+      <section>
+        <h3>Links rapidos</h3>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#passeios">Passeios</a></li>
+          <li><a href="#galeria">Galeria</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </section>
+
+      <section>
+        <h3>Horarios e redes</h3>
+        <p>Seg a Sab: 08h as 19h<br>Dom: 08h as 14h</p>
+        <p>Instagram: @sallettour<br>Facebook: /sallettour</p>
+      </section>
+
+      <section class="footer-map">
+        <h3>Base em Ilhabela</h3>
+        <img class="js-image-fade" src="img/mapa-ilhabela.svg" alt="Mapa ilustrativo da localizacao da Sallet Tour em Ilhabela" width="160" height="90" loading="lazy">
+      </section>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>© <span id="current-year"></span> Sallet Tour - Turismo em Ilhabela. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Dados estruturados simples para SEO local -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "TouristInformationCenter",
+    "name": "Sallet Tour",
+    "description": "Passeios em Ilhabela: lancha, 4x4, Praia de Castelhanos, barco, cachoeiras e turismo no litoral norte SP.",
+    "areaServed": "Ilhabela, Sao Paulo",
+    "telephone": "+55 12 99999-9999",
+    "url": "https://www.sallettour.com.br"
+  }
+  </script>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
